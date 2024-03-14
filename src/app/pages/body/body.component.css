@@ -1,0 +1,34 @@
+
+.equipo{
+    padding: 100px;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/assets/img/Oficina.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+.equipo p{
+    color: black;
+    text-align: center;
+}
+
+
+div{
+	animation-duration: 2s;
+	animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 10%;
+	  width: 500%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
